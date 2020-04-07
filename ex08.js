@@ -14,10 +14,7 @@ var i = 10;
 var n = new Number(10); // window f의 객체에서 Number() 객체 참조
 
 f();
-window.f();
-
 console.log(o);
-console.log(window.o);
 
 console.log("==========================");
 
