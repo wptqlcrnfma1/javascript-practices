@@ -8,4 +8,5 @@ String.prototype.myFunction = function(){
 }
 
 var s2 = "hello2";
+s1.myFunction();
 s2.myFunction();

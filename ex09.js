@@ -21,7 +21,7 @@ var o2 = new MyObject("마이콜",30);
 console.log(o2);
 
 //테스트
-console.log(o1.schoole + " : " + o2.school);
+console.log(o1.school + " : " + o2.school);
 
 //오버라이딩
 o2.info = function(){

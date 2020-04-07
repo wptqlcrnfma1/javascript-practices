@@ -23,7 +23,7 @@ console.log(url3);
     for(property in o){
         qs.push(property + "=" + encodeURIComponent(o[property]));
     }
-    console.log(encodeURIComponent(o[property]));
+    console.log("encodeURIComponent(o[property]) : " + encodeURIComponent(o[property]));
     console.log("qs : " + qs);
     return qs.join('&');
 }
