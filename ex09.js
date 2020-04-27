@@ -8,6 +8,11 @@ MyObject.prototype.course = "douzone";
 MyObject.prototype.info = function(){
 	console.log(this.name + ":" + this.age + ":" +this.school + ":" +this.course);
 }
+// 위 소스가 보기 어려워서 밑의 class로 하는게 좋다.
+//class MyObject{
+
+
+//}
 
 //MyObject 객체 생성 1
 //o1의 객체 속성의 school이 있기떄문에 자신의 것을 출력

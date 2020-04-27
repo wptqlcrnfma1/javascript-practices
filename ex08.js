@@ -23,7 +23,7 @@ name:'마이콜',
 age:20
 }
 console.log(o);
-
+console.log("==========================");
 f.another = {
     name:'또치',
     age:10,

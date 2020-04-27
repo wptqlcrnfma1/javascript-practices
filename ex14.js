@@ -8,6 +8,7 @@ console.log(test);
 
 // 배열 메소드 - join
 console.log("============join=========");
+
 var str = fruits.join(',');
 console.log(str);
 

@@ -54,7 +54,18 @@ var sum2 = function(){
     return sum;
 }
 
+var sub2 = function(){
+    sub = arguments[0];
+    for(var i=1;i<arguments.length;i++){
+       sub -= arguments[i];
+
+    }
+    return sub;
+}
+
+
 console.log(sum2(1,2));
 console.log(sum2(1,2,3));
 console.log(sum2(1,2,3,4));
 console.log(sum2(1,2,3,4,5));
+console.log(sub2(5,4,3,2,1));
